@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/pexels-bich-tran-669996.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  width: 95%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 250px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.about {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/aboutme.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.content h1 {
+  font-size: 70px;
+  margin: 80px;
+  color: lightseagreen;
+}
+.content p {
+  margin: 20 px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 25px;
+}
+button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+span {
+  background: #d69509;
+  height: 100%;
+  width: 0%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.4s;
+}
+button:hover span {
+  width: 100%;
+}
+button:hover {
+  border: rgb(233, 17, 17);
+}
+.Nikki h3 {
+  font-size: 40px;
+  margin: 80px;
+  font-style: initial;
+  color: rgb(240, 225, 13);
+}
+.Nikki p {
+  margin: 75px;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 25px;
+  font-family: sans-serif;
+  color: rgb(194, 207, 5);
+  align-items: center;
+}
+.Nikki a {
+  margin: 75px;
+  font-size: 20px;
+  color: #fff;
+}
+.markbanner {
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/edu.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.table {
+  margin: 30px;
+  font-size: xx-large;
+  color: #fff;
+  border-radius: 10px;
+  border-color: rgb(243, 252, 251);
+  border-radius: 5px;
+}
+.table thead {
+  color: rgb(196, 159, 13);
+}
+.proof h2 {
+  margin: 60px;
+  color: rgb(179, 115, 19);
+  font-style: normal;
+}
+.proof ul li a {
+  margin: 75px;
+  font-size: 20px;
+  color: #fff;
+}
+.proof a {
+  margin: 75px;
+  font-size: 10px;
+  color: #fff;
+  align-items: flex-start;
+}
+.objbanner {
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/OBJ.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.objj h2 {
+  font-size: 40px;
+  margin: 80px;
+  font-style: initial;
+  color: rgb(240, 225, 13);
+}
+.objj p {
+  margin: 75px;
+  font-style: italic;
+  font-weight: 50;
+  font-size: 30px;
+  line-height: 25px;
+  font-family: sans-serif;
+  color: rgb(210, 224, 20);
+  align-items: center;
+}
+.objj a {
+  margin: 75px;
+  font-size: 20px;
+  color: #fff;
+}
+.objj img {
+  margin: 75px;
+  size: 10cm;
+}
+.techbanner {
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/tech.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.tech h2 {
+  font-size: 40px;
+  margin: 80px;
+  font-style: italic;
+  color: rgb(5, 113, 201);
+}
+.tech p {
+  margin: 75px;
+  font-style: italic;
+  font-weight: 50;
+  font-size: 30px;
+  line-height: 25px;
+  font-family: sans-serif;
+  color: rgb(210, 224, 20);
+  align-items: center;
+}
+.tech a {
+  margin: 75px;
+  font-size: 20px;
+  color: #fff;
+}
+.but a {
+  margin: 75px;
+  font-size: 20px;
+  color: rgb(15, 73, 197);
+}
+.achbanner {
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/ach.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ach p {
+  margin: 75px;
+  font-style: italic;
+  font-weight: 50;
+  font-size: 30px;
+  line-height: 25px;
+  font-family: sans-serif;
+  color: rgb(255, 115, 0);
+  align-items: center;
+}
+.ach a {
+  margin: 75px;
+  font-size: 20px;
+  color: rgb(15, 73, 197);
+}
+.persbanner {
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/Images/pers.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.pers p {
+  margin: 75px;
+  font-style: italic;
+  font-weight: 50;
+  font-size: 30px;
+  line-height: 25px;
+  font-family: sans-serif;
+  color: rgb(236, 236, 241);
+  align-items: center;
+}
+.pers p b {
+  color: rgb(137, 226, 21);
+}
+.pers a {
+  margin: 75px;
+  font-size: 20px;
+  color: rgb(15, 73, 197);
+}
